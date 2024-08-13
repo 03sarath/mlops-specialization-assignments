@@ -40,7 +40,23 @@ app.listen(port, () => {
   
  ```
 
-3. Build, Run and Push the Docker Image:
+3. Create the Dockerfile:
+```
+# Use the official Node.js image from the Docker Hub
+
+# Set the working directory in the container
+
+# Copy package.json and install dependencies
+
+# Copy the application code into the container
+
+# Expose port 3000
+
+# Command to run the Node.js app
+
+```
+
+4. Build, Run and Push the Docker Image:
 
 Run the Docker Image with Environment Variables
 
