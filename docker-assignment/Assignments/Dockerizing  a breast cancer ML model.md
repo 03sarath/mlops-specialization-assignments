@@ -29,7 +29,7 @@ xgboost
 flask
 ```
 3. Create the `Dockerfile`
-
+```
 # Use the official Python image from the Docker Hub
 
 # Set the working directory in the container
@@ -41,6 +41,7 @@ flask
 # Expose the port the app runs on
 
 # Run the Flask app
+```
 
  4. Create the Flask App (`predict.py`)
  This script sets up a Flask app that loads a pre-trained model and provides an endpoint for predictions:
